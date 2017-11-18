@@ -74,7 +74,7 @@ body {
 }
 
 #banner {
-  background: url(http://1.bp.blogspot.com/-JqACKlX2wV4/UR-XCR4zIrI/AAAAAAAAAZk/4K-J6pYhsyk/s1600/WinterWoodsSnow-long+goodbye.png);
+  background: url(content/winter.png);
   background-size: cover;
   background-position: bottom center;
   background-attachment: fixed;
@@ -145,7 +145,7 @@ body {
 
 }
 #resume{
-	background: url(https://cdn-images-1.medium.com/max/2000/1*2nYB8VD7uuA80Nc6FBao9Q.jpeg);
+	background: url(content/matrix.jpeg);
 	    background-size: cover;
 	    background-position: center;
 	    background-attachment: fixed;
