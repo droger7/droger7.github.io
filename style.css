@@ -81,7 +81,7 @@ body {
     background: #5e5e5e;
     color: #fff;
     transition: .5s ease all
-    
+
 }
 
 #contact-form input::-webkit-input-placeholder,
@@ -216,6 +216,9 @@ body {
 #banner h1 {
 	font-weight: 300;
 	letter-spacing: 5px;
+    padding-bottom: 10px;
+    padding-top: 150px;
+    font-size: 3.5rem;
 }
 .banner-content {
 		color: #fff;
