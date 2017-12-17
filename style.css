@@ -51,10 +51,11 @@ body {
 /*              Contact Form                    */
 /************************************************/
 #contact {
-    padding: 50px 15px;
+    padding:50px 15px;
     background: #3498db;
     text-align: center;
-    width: 100%;
+    width: 67%;
+    border-radius:10px;
 
 }
 
