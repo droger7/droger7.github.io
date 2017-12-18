@@ -17,11 +17,6 @@ body {
 .navbar .navbar-toggle:focus {
     background-color: #000000;
 }
-/*
-.navbar .navbar-nav .nav-link:not(.disabled):hover,
-.navbar .navbar-nav .nav-link:not(.disabled):focus {
-    color:rgb(12, 180, 218);
-}*/
 
 .navbar .navbar-link:hover {
     color: rgb(12, 180, 218);
@@ -264,15 +259,39 @@ body {
 #terminal{
 }
 #interestTerm{
-	font-family: 'Monaco', 'Courier New';
+	font-family: Courier;
 	font-size: 12px;
-	color:white;
+	color:#00FF00;
 	background-color: black;
 	height: 250px;
 	padding-top:10px;
 	padding-left: 10px;
 
 }
+#interestTerm:after{
+    content:"_";
+    opacity:0;
+    animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 #resume{
 	background: url(content/matrix.jpeg);
 	    background-size: cover;
@@ -282,29 +301,6 @@ body {
 	    background-color: #000;
 	    color: #fff;
 }
-
-/*
-#code {
-  border-radius: 5px;
-  width:750px;
-  margin: 0 auto;
-  padding-top:15px;
-  font-size:30px;
-  background: #ccc;
-  height: 700px;
-  font-family: 'Monaco', 'Courier New';
-  text-align: left;
-  font-size:13px;
-  color: #fafafa;
-}
-
-#console {
-  width:670px;
-  padding: 40px;
-  height: 620px;
-  margin:0 auto;
-  background: #383737;
-}*/
 
 .timeline {
     list-style: none;
