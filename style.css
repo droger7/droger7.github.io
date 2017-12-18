@@ -52,7 +52,7 @@ body {
 /************************************************/
 #contact {
     padding:50px 15px;
-    background: url(content/terminal gif.gif);
+    background: url(content/term.gif);
     text-align: center;
     width: 67%;
     border-radius:10px;
@@ -201,7 +201,7 @@ body {
 }
 
 #banner {
-  background: url(content/terminal gif.gif);
+  background: url(content/term.gif);
   background-size: cover;
   background-position: bottom center;
   background-attachment: fixed;
