@@ -17,6 +17,11 @@ body {
 .navbar .navbar-toggle:focus {
     background-color: #000000;
 }
+/*
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color:rgb(12, 180, 218);
+}*/
 
 .navbar .navbar-link:hover {
     color: rgb(12, 180, 218);
@@ -259,7 +264,7 @@ body {
 #terminal{
 }
 #interestTerm{
-	font-family: Courier;
+	font-family: 'Monaco', 'Courier New';
 	font-size: 12px;
 	color:#00FF00;
 	background-color: black;
@@ -268,30 +273,6 @@ body {
 	padding-left: 10px;
 
 }
-#interestTerm:after{
-    content:"_";
-    opacity:0;
-    animation: cursor 1s infinite;
-}
-
-@keyframes cursor {
-    0% {
-        opacity: 0;
-    }
-    40% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-    90% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
 #resume{
 	background: url(content/matrix.jpeg);
 	    background-size: cover;
@@ -301,6 +282,7 @@ body {
 	    background-color: #000;
 	    color: #fff;
 }
+
 
 .timeline {
     list-style: none;
