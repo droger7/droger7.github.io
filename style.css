@@ -51,6 +51,19 @@ body {
 /*                  Terminal                    */
 /************************************************/
 
+#terminal{
+}
+#interestTerm{
+    font-family: 'Monaco', 'Courier New';
+    font-size: 12px;
+    color:#00FF00;
+    background-color: black;
+    height: 250px;
+    padding-top:10px;
+    padding-left: 10px;
+
+}
+
 .line4 {
     color: #00FF00;
     -webkit-animation: type 1s 1s steps(20, end) forwards;
@@ -299,18 +312,7 @@ body {
 	height: 10px;
 
 }
-#terminal{
-}
-#interestTerm{
-	font-family: 'Monaco', 'Courier New';
-	font-size: 12px;
-	color:#00FF00;
-	background-color: black;
-	height: 250px;
-	padding-top:10px;
-	padding-left: 10px;
 
-}
 #resume{
 	background: url(content/matrix.jpeg);
 	    background-size: cover;
