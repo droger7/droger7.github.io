@@ -53,17 +53,17 @@ body {
 
 .line4 {
     color: #00FF00;
-    -webkit-animation: type .5s .5s steps(20, end) forwards;
-    -moz-animation: type .5s .5s steps(20, end) forwards;
-    -o-animation: type .5s .5s steps(20, end) forwards;
-    animation: type .5s .5s steps(20, end) forwards;
+    -webkit-animation: type 1s 1s steps(20, end) forwards;
+    -moz-animation: type 1s 1s steps(20, end) forwards;
+    -o-animation: type 1s 1s steps(20, end) forwards;
+    animation: type 1s 1s steps(20, end) forwards;
 }
 
 .cursor4 {
-    -webkit-animation: blink .5s .5s infinite;
-    -moz-animation: blink .5s .5s infinite;
-    -o-animation: blink .5s .5s infinite;
-    animation: blink .5s .5s infinite;
+    -webkit-animation: blink 1s 1s infinite;
+    -moz-animation: blink 1s 1s infinite;
+    -o-animation: blink 1s 1s infinite;
+    animation: blink 1s 1s infinite;
 }
 
 @keyframes blink {
