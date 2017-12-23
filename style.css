@@ -6,6 +6,9 @@ html {
 body {
 	background-color: white;
 }
+/************************************************/
+/*                  Nav-Bar                     */
+/************************************************/
 .jumbotron{
 	margin-bottom: 0px;
 }
@@ -184,6 +187,9 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)
 }
 
+/************************************************/
+/*                  Banner                      */
+/************************************************/
 #banner .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
     /* FF3.6+ */
@@ -203,6 +209,40 @@ body {
 
     background-attachment: fixed;
 }
+
+#banner {
+    background: url(content/winter.png);
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: #000;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#banner h1 {
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    padding-top: 150px;
+    font-size: 3.5rem;
+
+}
+.banner-content {
+    color: #fff;
+    position:relative;
+    display:inline-block;
+    top:30%;
+    transform:translateY(-30%);
+}
+
+/************************************************/
+/*                    Resume                    */
+/************************************************/
+
 #resume .overlay {
     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
     /* FF3.6+ */
@@ -250,34 +290,19 @@ body {
     text-decoration: none;
 }
 
-#banner {
-  background: url(content/winter.png);
-  background-size: cover;
-  background-position: bottom center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-color: #000;
-  color: #000;
-	width: 100%;
-  height: 100vh;
+#resume{
+    background: url(content/matrix.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: #fff;
 }
 
-
-#banner h1 {
-	font-weight: 300;
-	letter-spacing: 5px;
-    padding-bottom: 10px;
-    padding-top: 150px;
-    font-size: 3.5rem;
-
-}
-.banner-content {
-		color: #fff;
-    position:relative;
-    display:inline-block;
-    top:30%;
-    transform:translateY(-30%);
-}
+/************************************************/
+/*                    Section                   */
+/************************************************/
 
 #about {
 	background-color: white;
@@ -310,19 +335,11 @@ body {
 	border-radius: 50%;
 	width: 10px;
 	height: 10px;
-
 }
 
-#resume{
-	background: url(content/matrix.jpeg);
-	    background-size: cover;
-	    background-position: center;
-	    background-attachment: fixed;
-	    background-repeat: no-repeat;
-	    background-color: #000;
-	    color: #fff;
-}
-
+/************************************************/
+/*                  Timeline                    */
+/************************************************/
 
 .timeline {
     list-style: none;
@@ -511,6 +528,10 @@ body {
             right: auto;
         }
 }
+
+/************************************************/
+/*                   Projects                   */
+/************************************************/
 
 #projects .card{
 		background-color: white;
