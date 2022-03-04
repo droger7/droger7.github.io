@@ -104,10 +104,9 @@ body {
 /*                Contact Form                  */
 /************************************************/
 #contact {
-    padding:50px 15px;
     background: #262626;
     text-align: center;
-    width: 67%;
+    width: 70%;
     border-radius:10px;
 		margin: 0 auto;
 		margin-top: 25px;
