@@ -110,7 +110,7 @@ body {
     width: 67%;
     border-radius:10px;
 		margin: 0 auto;
-		padding-top: 25px;
+		margin-top: 25px;
 }
 
 #contact h2 {
@@ -300,7 +300,6 @@ body {
     background-repeat: no-repeat;
     background-color: #000;
     color: #fff;
-		padding-bottom: 25px;
 }
 
 /************************************************/
