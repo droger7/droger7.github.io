@@ -109,6 +109,7 @@ body {
     text-align: center;
     width: 67%;
     border-radius:10px;
+		margin: 0 auto;
 }
 
 #contact h2 {
