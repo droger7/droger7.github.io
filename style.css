@@ -212,7 +212,7 @@ body {
 }
 
 #banner {
-    background-image: url(content/winter.png);
+    /*background-image: url(content/winter.png);*/
     background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -224,7 +224,6 @@ body {
     color: #000;
     width: 100%;
     height: 100%;
-		overflow: scroll;
 }
 
 
@@ -307,7 +306,6 @@ body {
     background-color: #000;
     color: #fff;
 		height: 100%;
-		overflow: scroll;
 }
 
 /************************************************/
