@@ -212,7 +212,7 @@ body {
 }
 
 #banner {
-    /*background-image: url(content/winter.png);*/
+  	background-image: url(content/winter.png);
     background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
