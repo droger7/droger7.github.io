@@ -212,9 +212,9 @@ body {
 }
 
 #banner {
-    background: url(content/winter.png);
+    background-image: url(content/winter.png);
     background-size: cover;
-    background-position: bottom center;
+    background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #000;
@@ -292,13 +292,14 @@ body {
 }
 
 #resume{
-    background: url(content/matrix.jpeg);
+    background-image: url(content/matrix.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #000;
     color: #fff;
+		height: 100%;
 }
 
 /************************************************/
