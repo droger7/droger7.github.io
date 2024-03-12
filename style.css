@@ -213,7 +213,7 @@ body {
 
 #banner {
   	background-image: url(content/Cyber_background.jpg);
-    background-size: cover;
+    background-size: 100% auto cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
