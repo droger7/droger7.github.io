@@ -212,7 +212,7 @@ body {
 }
 
 #banner {
-  	background-image: url(content/Cyber_background_small.jpg);
+  	background-image: url(content/Cyber_background.jpg);
     background-size: 100% auto cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -222,6 +222,7 @@ body {
     background-repeat: no-repeat;
     background-color: #000;
     color: #000;
+    width: 100%;
     height: auto;
 		max-width: 100%;
 }
@@ -295,7 +296,7 @@ body {
 }
 
 #resume{
-    background-image: url(content/matrix_small.jpg);
+    background-image: url(content/matrix.jpeg);
     background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
