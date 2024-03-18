@@ -1,11 +1,14 @@
 html {
 	position: relative;
 	min-height: 100%;
+	overflow-x: hidden;
 }
 
 body {
 	background-color: white;
+	overflow-x: hidden;
 }
+
 /************************************************/
 /*                  Nav-Bar                     */
 /************************************************/
