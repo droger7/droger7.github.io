@@ -57,8 +57,6 @@ body {
 /*                  Terminal                    */
 /************************************************/
 
-#terminal{
-}
 #interestTerm{
     font-family: 'Monaco', 'Courier New';
     font-size: 12px;
